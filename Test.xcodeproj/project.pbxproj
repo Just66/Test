@@ -8,12 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		E6B3C40320FF419500145749 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B3C40220FF419500145749 /* AppDelegate.swift */; };
-		E6B3C40520FF419500145749 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B3C40420FF419500145749 /* ViewController.swift */; };
 		E6B3C40820FF419500145749 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6B3C40620FF419500145749 /* Main.storyboard */; };
 		E6B3C40A20FF419600145749 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6B3C40920FF419600145749 /* Assets.xcassets */; };
 		E6B3C40D20FF419600145749 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6B3C40B20FF419600145749 /* LaunchScreen.storyboard */; };
 		E6B3C41820FF419600145749 /* TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B3C41720FF419600145749 /* TestTests.swift */; };
 		E6B3C42320FF419600145749 /* TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B3C42220FF419600145749 /* TestUITests.swift */; };
+		E6B3C43620FF469C00145749 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B3C43520FF469C00145749 /* MainVC.swift */; };
+		E6B3C43820FF48E900145749 /* ListOfData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B3C43720FF48E900145749 /* ListOfData.swift */; };
+		E6B3C43A20FF4C9800145749 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B3C43920FF4C9800145749 /* Extension.swift */; };
+		E6B3C43C20FF5C1200145749 /* DataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B3C43B20FF5C1200145749 /* DataCell.swift */; };
+		E6B3C43E20FF6DC400145749 /* ContentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B3C43D20FF6DC400145749 /* ContentVC.swift */; };
+		E6B3C44020FF6DFF00145749 /* DetailedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B3C43F20FF6DFF00145749 /* DetailedVC.swift */; };
+		E6B3C44220FF72A200145749 /* PageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B3C44120FF72A200145749 /* PageController.swift */; };
+		E6B3C44420FF7BA200145749 /* Procotols.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B3C44320FF7BA200145749 /* Procotols.swift */; };
+		E6B3C44620FF8EA600145749 /* Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B3C44520FF8EA600145749 /* Structs.swift */; };
+		E6B3C44820FF91BE00145749 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B3C44720FF91BE00145749 /* Request.swift */; };
+		E6B3C44A20FFA06500145749 /* ImageWithCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B3C44920FFA06500145749 /* ImageWithCache.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +46,6 @@
 /* Begin PBXFileReference section */
 		E6B3C3FF20FF419500145749 /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6B3C40220FF419500145749 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E6B3C40420FF419500145749 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E6B3C40720FF419500145749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E6B3C40920FF419600145749 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6B3C40C20FF419600145749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +56,17 @@
 		E6B3C41E20FF419600145749 /* TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6B3C42220FF419600145749 /* TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUITests.swift; sourceTree = "<group>"; };
 		E6B3C42420FF419600145749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6B3C43520FF469C00145749 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		E6B3C43720FF48E900145749 /* ListOfData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfData.swift; sourceTree = "<group>"; };
+		E6B3C43920FF4C9800145749 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		E6B3C43B20FF5C1200145749 /* DataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCell.swift; sourceTree = "<group>"; };
+		E6B3C43D20FF6DC400145749 /* ContentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentVC.swift; sourceTree = "<group>"; };
+		E6B3C43F20FF6DFF00145749 /* DetailedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedVC.swift; sourceTree = "<group>"; };
+		E6B3C44120FF72A200145749 /* PageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageController.swift; sourceTree = "<group>"; };
+		E6B3C44320FF7BA200145749 /* Procotols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Procotols.swift; sourceTree = "<group>"; };
+		E6B3C44520FF8EA600145749 /* Structs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structs.swift; sourceTree = "<group>"; };
+		E6B3C44720FF91BE00145749 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		E6B3C44920FFA06500145749 /* ImageWithCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageWithCache.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +117,15 @@
 		E6B3C40120FF419500145749 /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				E6B3C44320FF7BA200145749 /* Procotols.swift */,
+				E6B3C44520FF8EA600145749 /* Structs.swift */,
+				E6B3C43B20FF5C1200145749 /* DataCell.swift */,
+				E6B3C43220FF465B00145749 /* Controllers */,
 				E6B3C40220FF419500145749 /* AppDelegate.swift */,
-				E6B3C40420FF419500145749 /* ViewController.swift */,
 				E6B3C40620FF419500145749 /* Main.storyboard */,
+				E6B3C43920FF4C9800145749 /* Extension.swift */,
+				E6B3C44920FFA06500145749 /* ImageWithCache.swift */,
+				E6B3C44720FF91BE00145749 /* Request.swift */,
 				E6B3C40920FF419600145749 /* Assets.xcassets */,
 				E6B3C40B20FF419600145749 /* LaunchScreen.storyboard */,
 				E6B3C40E20FF419600145749 /* Info.plist */,
@@ -123,6 +149,18 @@
 				E6B3C42420FF419600145749 /* Info.plist */,
 			);
 			path = TestUITests;
+			sourceTree = "<group>";
+		};
+		E6B3C43220FF465B00145749 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E6B3C43D20FF6DC400145749 /* ContentVC.swift */,
+				E6B3C43F20FF6DFF00145749 /* DetailedVC.swift */,
+				E6B3C44120FF72A200145749 /* PageController.swift */,
+				E6B3C43720FF48E900145749 /* ListOfData.swift */,
+				E6B3C43520FF469C00145749 /* MainVC.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +294,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6B3C40520FF419500145749 /* ViewController.swift in Sources */,
+				E6B3C44420FF7BA200145749 /* Procotols.swift in Sources */,
+				E6B3C44220FF72A200145749 /* PageController.swift in Sources */,
+				E6B3C44A20FFA06500145749 /* ImageWithCache.swift in Sources */,
+				E6B3C44620FF8EA600145749 /* Structs.swift in Sources */,
+				E6B3C43820FF48E900145749 /* ListOfData.swift in Sources */,
+				E6B3C44820FF91BE00145749 /* Request.swift in Sources */,
+				E6B3C44020FF6DFF00145749 /* DetailedVC.swift in Sources */,
 				E6B3C40320FF419500145749 /* AppDelegate.swift in Sources */,
+				E6B3C43E20FF6DC400145749 /* ContentVC.swift in Sources */,
+				E6B3C43620FF469C00145749 /* MainVC.swift in Sources */,
+				E6B3C43C20FF5C1200145749 /* DataCell.swift in Sources */,
+				E6B3C43A20FF4C9800145749 /* Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +481,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 73P7ATGLB8;
 				INFOPLIST_FILE = Test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,6 +500,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 73P7ATGLB8;
 				INFOPLIST_FILE = Test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
